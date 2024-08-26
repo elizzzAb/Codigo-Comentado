@@ -4,3 +4,9 @@ C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\DatosLayer\obj\Debug\DatosLayer.csproj.CoreCompileInputs.cache
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\DatosLayer\obj\Debug\DatosLayer.dll
 C:\Users\everc\OneDrive\Documentos\progra2\conexion_vs_sql_server\ModeloDeCapasC#\ConexionEjemplo\DatosLayer\obj\Debug\DatosLayer.pdb
+C:\Users\Elizabeth\Downloads\sqlServer_visualEstudio_Conectado_DataProvider-main (1)\sqlServer_visualEstudio_Conectado_DataProvider-main\DatosLayer\bin\Debug\DatosLayer.dll
+C:\Users\Elizabeth\Downloads\sqlServer_visualEstudio_Conectado_DataProvider-main (1)\sqlServer_visualEstudio_Conectado_DataProvider-main\DatosLayer\bin\Debug\DatosLayer.pdb
+C:\Users\Elizabeth\Downloads\sqlServer_visualEstudio_Conectado_DataProvider-main (1)\sqlServer_visualEstudio_Conectado_DataProvider-main\DatosLayer\obj\Debug\DatosLayer.csproj.AssemblyReference.cache
+C:\Users\Elizabeth\Downloads\sqlServer_visualEstudio_Conectado_DataProvider-main (1)\sqlServer_visualEstudio_Conectado_DataProvider-main\DatosLayer\obj\Debug\DatosLayer.csproj.CoreCompileInputs.cache
+C:\Users\Elizabeth\Downloads\sqlServer_visualEstudio_Conectado_DataProvider-main (1)\sqlServer_visualEstudio_Conectado_DataProvider-main\DatosLayer\obj\Debug\DatosLayer.dll
+C:\Users\Elizabeth\Downloads\sqlServer_visualEstudio_Conectado_DataProvider-main (1)\sqlServer_visualEstudio_Conectado_DataProvider-main\DatosLayer\obj\Debug\DatosLayer.pdb
