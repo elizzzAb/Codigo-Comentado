@@ -8,29 +8,43 @@ using System.Threading.Tasks;
 
 namespace DatosLayer
 {
+    // Definimos una clase llamada CustomerRepository dentro del namespace DatosLayer
     public class CustomerRepository
     {
 
-        // Creamos un método para obtener todos los clientes
+        // Creamos un método para obtener todos los clientes de la tabla Customers
         public List<Customers> ObtenerTodos() {
 
-            // Crea una conexión a la base de datos
+            // Abre una conexión a la base de datos usando el método GetSqlConnection
             using (var conexion= DataBase.GetSqlConnection()) {
 
                 // Construye la consulta SQL para seleccionar todos los campos
                 // de la tabla Customers
                 String selectFrom = "";
+                // Agrega la cláusula SELECT y el primer campo (CustomerID) a la cadena
                 selectFrom = selectFrom + "SELECT [CustomerID] " + "\n";
+                // Agrega el campo CompanyName a la consulta
                 selectFrom = selectFrom + "      ,[CompanyName] " + "\n";
+                // Agrega el campo ContactName a la consulta
                 selectFrom = selectFrom + "      ,[ContactName] " + "\n";
+                // Agrega el campo ContactTitle a la consulta
                 selectFrom = selectFrom + "      ,[ContactTitle] " + "\n";
+                // Agrega el campo Address a la consulta
                 selectFrom = selectFrom + "      ,[Address] " + "\n";
+                // Agrega el campo City a la consulta
                 selectFrom = selectFrom + "      ,[City] " + "\n";
+                // Agrega el campo Region a la consulta
                 selectFrom = selectFrom + "      ,[Region] " + "\n";
+                // Agrega el campo PostalCode a la consulta
                 selectFrom = selectFrom + "      ,[PostalCode] " + "\n";
+                // Agrega el campo Country a la consulta
                 selectFrom = selectFrom + "      ,[Country] " + "\n";
+                // Agrega el campo Phone a la consulta
                 selectFrom = selectFrom + "      ,[Phone] " + "\n";
+                // Agrega el campo Fax a la consulta
                 selectFrom = selectFrom + "      ,[Fax] " + "\n";
+
+                // Agrega la cláusula FROM y la tabla Customers a la consulta
                 selectFrom = selectFrom + "  FROM [dbo].[Customers]";
 
                 // Crea un comando SQL con la consulta y la conexión

@@ -13,8 +13,10 @@ using System.Net;
 using System.Reflection;
 
 
+// Define el espacio de nombres para organizar el código
 namespace ConexionEjemplo
 {
+    // Declara una clase parcial llamada Form1 que hereda de Form
     public partial class Form1 : Form
     {
         // Instancia del repositorio de clientes
@@ -61,11 +63,28 @@ namespace ConexionEjemplo
         {
             // Busca un cliente por ID y llena los campos del formulario con sus datos
             var cliente = customerRepository.ObtenerPorID(txtBuscar.Text);
+            // Asigna el valor de la propiedad CustomerID del
+            // cliente encontrado al cuadro de texto tboxCustomerID
             tboxCustomerID.Text = cliente.CustomerID;
+
+            // Asigna el valor de la propiedad CompanyName del
+            // cliente encontrado al cuadro de texto tboxCompanyName
             tboxCompanyName.Text = cliente.CompanyName;
+
+            // Asigna el valor de la propiedad ContactName del
+            // cliente encontrado al cuadro de texto tboxContacName
             tboxContacName.Text = cliente.ContactName;
+
+            // Asigna el valor de la propiedad ContactTitle del
+            // cliente encontrado al cuadro de texto tboxContactTitle
             tboxContactTitle.Text= cliente.ContactTitle;
+
+            // Asigna el valor de la propiedad Address del
+            // cliente encontrado al cuadro de texto tboxAddress
             tboxAddress.Text = cliente.Address;
+
+            // Asigna el valor de la propiedad City del
+            // cliente encontrado al cuadro de texto tboxCity
             tboxCity.Text = cliente.City;
 
 
